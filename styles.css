@@ -1,0 +1,48 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  line-height: 1.5;
+}
+
+header {
+  background: #222;
+  color: white;
+  padding: 1rem;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav a {
+  color: white;
+  margin-right: 1rem;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+section {
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+}
+
+@media (max-width: 600px) {
+  main {
+    padding: 0.5rem;
+  }
+
+  nav a {
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+}
